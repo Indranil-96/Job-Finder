@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../image/pexels-fauxels-3184465.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #E5E1DA !important;
+}
+
+.navbar-brand{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: red;
+    font-family: cursive;
+}
+.nav-link{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.nav-link:hover{
+    color: red;
+    transition: 0.4s;
+}
+
+.nav-item{
+    font-weight: 600;
+    color: black;
+}
+
+.btns{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    border: none;
+    background-color: orangered;
+    height: 1.78rem;
+    width: 5.28rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    border-radius: 8px;
+}
+
+
+
+.btns:hover{
+    background-color: blueviolet;
+}
+
+
+#search-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+}
+#search{
+    height: 2rem;
+    width: 20rem;
+    background: transparent;
+    border: 1px solid orange;
+    text-align: center;
+}
+
+.red{
+    color: red !important;
+    font-size: large !important;
+}
+
+.ceta .card:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 22px 1px rgba(219, 148, 148, 0.63);
+    -webkit-box-shadow: 10px 10px 22px 1px rgba(221, 97, 97, 0.63);
+    -moz-box-shadow: 10px 10px 22px 1px rgba(199, 122, 122, 0.63);
+    transition: all 1s ease-in-out;
+}
+
+.expcb{
+    height: 2.5rem;
+    width: 12rem;
+    background: transparent;
+    border: 1px solid blue;
+}
+.expcb:hover{
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+
+.hire{
+    margin-top: 1rem;
+    height: 7rem;
+    width: 100%;
+    background-color: rgb(240, 232, 232);
+}
+
+.psb{
+    background: transparent;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 45%;
+    border: 1px solid blue;
+    color: blue;
+}
+
+
+#contact{
+    height: 14rem;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#contact img{
+    height: 2rem;
+    width: 2rem;
+    font-size: large;
+}
+
+#contact span{
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: red;
+    font-weight: bold;
+}
+
+.ld{
+    list-style: none;
+    cursor: pointer;
+}
+.ld a{
+    text-decoration: none;
+}
+
+.ld li{
+    margin-top: 0.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+}

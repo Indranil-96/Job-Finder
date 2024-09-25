@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.ygBNv6dUiTaFFr3BWGG2YAHaHa?w=250&h=250&c=8&rs=1&qlt=90rm=2&w=512&h=512&pid=ImgDetMain" type="image/x-icon">
+    <link rel="stylesheet" href="/css/signup.css">
+</head>
+<body style="background-color: #9DBDFF;">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 text-center  position-absolute start-50 top-50 translate-middle sign">
+
+                <img src="https://th.bing.com/th/id/OIP.ygBNv6dUiTaFFr3BWGG2YAHaHa?w=250&h=250&c=8&rs=1&qlt=90rm=2&w=512&h=512&pid=ImgDetMain" alt=""> <span>Sign-Up Form</span>
+
+        <form action="signup" method="post">
+            <div class="form-group mt-2">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="Name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="Email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="number" class="form-control" id="phone" name="Phone" placeholder="Phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="Password" placeholder="Password" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-4">Register</button>
+        </form>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

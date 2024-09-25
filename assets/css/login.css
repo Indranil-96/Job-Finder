@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.log{
+    height: 25rem;
+    background-color: #6A9C89;
+    border-radius: 15px;
+    
+}
+.log img{
+    margin-top: 2rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.log span{
+    font-size: 1.4rem;
+    color: blue;
+}
+
+.form-control{
+    background-color: transparent;
+}
+
+.lbtn{
+    height: 2.6rem;
+    width: 8rem;
+    border: none;
+    background-color: #3f2a05;
+    border-radius: 18px;
+    color: wheat;
+}
+
+
+.lbtn:hover{
+    background-color: #052b1c;
+    transition: all 1s ease-in-out;
+    color: white;
+}
